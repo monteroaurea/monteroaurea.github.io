@@ -250,13 +250,13 @@ position: fixed;
         grid-template-columns: min-content max-content;
     }
     
-    .intro .Profile-IMG {
+    .intro img{
         min-width: 250px;
         position: relative;
         z-index: 2;
 
     }
-    .intro .Profile-IMG {
+    .intro img{
         box-shadow: var(--bs);
     }
    
