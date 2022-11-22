@@ -174,8 +174,6 @@ header {
 }
 
 
-
-
 .nav-toggle {
     padding: .5em;
     background: transparent;
@@ -252,14 +250,14 @@ position: fixed;
         grid-template-columns: min-content max-content;
     }
     
-    .intro img {
+    .intro .Profile-IMG {
         min-width: 250px;
         position: relative;
         z-index: 2;
 
     }
     
-       .intro img {
+   .Profile-IMG {
         box-shadow: var(--bs);
     }
     
