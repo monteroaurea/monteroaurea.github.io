@@ -258,6 +258,11 @@ position: fixed;
         z-index: 2;
 
     }
+    
+       .intro img {
+        box-shadow: var(--bs);
+    }
+    
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 /1;
