@@ -61,7 +61,6 @@ img{
     display: block;
     max-width: 100%;
     width: 280px;
-    box-shadow: var(--bs);
 }
 
 strong {font-weight: var(--fw-bold)}
@@ -256,6 +255,9 @@ position: fixed;
         position: relative;
         z-index: 2;
 
+    }
+    .intro .Profile-IMG {
+        box-shadow: var(--bs);
     }
    
     
