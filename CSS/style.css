@@ -61,6 +61,7 @@ img{
     display: block;
     max-width: 100%;
     width: 280px;
+    box-shadow: var(--bs);
 }
 
 strong {font-weight: var(--fw-bold)}
@@ -254,13 +255,9 @@ position: fixed;
         min-width: 250px;
         position: relative;
         z-index: 2;
-        box-shadow: var(--bs);
 
     }
-    
-   .intro__img {
-        box-shadow: var(--bs);
-    }
+   
     
     .section__subtitle--intro {
         align-self: start;
