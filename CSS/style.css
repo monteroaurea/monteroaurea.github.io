@@ -256,11 +256,18 @@ position: fixed;
         z-index: 2;
 
     }
+<<<<<<< HEAD
     .intro img{
         box-shadow: var(--bs);
     }
    
     
+=======
+
+    .intro img {
+        box-shadow: var(--bs);
+    }
+>>>>>>> 5ae1758 (updatetext)
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 /1;
