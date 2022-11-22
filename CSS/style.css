@@ -254,10 +254,11 @@ position: fixed;
         min-width: 250px;
         position: relative;
         z-index: 2;
+        box-shadow: var(--bs);
 
     }
     
-   .intro img {
+   .intro__img {
         box-shadow: var(--bs);
     }
     
