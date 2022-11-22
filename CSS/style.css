@@ -238,6 +238,10 @@ position: fixed;
     display: inline-block;
 }
 
+.Profile-IMG {
+    box-shadow: var(--bs);
+}
+
 @media (min-width: 600px){
     .intro {
         display:grid;
@@ -256,18 +260,8 @@ position: fixed;
         z-index: 2;
 
     }
-<<<<<<< HEAD
-    .intro img{
-        box-shadow: var(--bs);
-    }
    
-    
-=======
-
-    .intro img {
-        box-shadow: var(--bs);
-    }
->>>>>>> 5ae1758 (updatetext)
+   
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 /1;
@@ -277,11 +271,11 @@ position: fixed;
         left: -1.5em;
         width: calc(100% * 1.5rem);
     }
+
 }
 
 .my-services , .tools {
     background-color: var(--clr-accent);
-    background-image: url(/Users/aureamontt/Projects/MA-Development/IMG/BG/white-bg.jpg);
     background-size: cover;
     background-blend-mode:multiply;
     color: var(--clr-dark);
@@ -330,6 +324,7 @@ position: fixed;
 
 .Frankie-IMG {
     box-shadow: var(--bs);
+    width: 300;
 }
         
 @media (min-width: 600px) {
@@ -361,9 +356,11 @@ position: fixed;
 
     .Frankie-IMG {
         grid-area: img;
+        min-width: 250px;
         position: relative;
         z-index: 2;
     }
+
 }
 
 /*FOOTER*/
